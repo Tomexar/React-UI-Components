@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+.img-thumb{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: -120px;
+    margin-top: 20px;
+
+}
+
+.header-title{
+    display: flex;
+    margin-left: 20px;
+    align-items: baseline;    
+}
+
+h2{
+    margin-left: 20px;
+    color:grey;
+    font-size: 2em;
+}
+.bot-content{
+    margin-top: -65px;
+    font-size: 2em;
+}
+
+.top-content{
+    display: flex;
+}
