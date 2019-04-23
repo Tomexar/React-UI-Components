@@ -3,7 +3,7 @@ import './Button.scss';
 
 const NumberButton = () =>{
     return (
-        <div className = 'operators'>
+        <div className = 'numbbtn'>
             <div className = 'row1'>clear</div>
             <div className = 'row 2'>7 8 9</div>
             <div className = 'row 3'>4 5 6</div>

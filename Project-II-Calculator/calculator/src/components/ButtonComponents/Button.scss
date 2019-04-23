@@ -1,0 +1,27 @@
+.numbbtn{
+    display: flex;
+}
+
+
+.operators{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width:10%;
+    .multiplication{
+        border:1px solid lightgray;
+    }
+    .division{
+        border:1px solid lightgray;
+    }
+    .addition{
+        border:1px solid lightgray;
+    }
+    .subtraction{
+        border:1px solid lightgray;
+    }
+    .equals{
+        border:1px solid lightgray;
+        
+    }
+}
