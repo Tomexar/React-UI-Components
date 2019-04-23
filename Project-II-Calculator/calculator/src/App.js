@@ -10,30 +10,30 @@ const App = () => {
     <div>
       <CalculatorDisplay />
       <div className ="row1">
-        <button>Clear</button>
-        <button>÷</button>
+        <button class = 'widebtn'>clear</button>
+        <button class = 'redbtn'>÷</button>
       </div>
       <div className ='row2'>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>x</button>
+        <button class = 'numbtn'>7</button>
+        <button class = 'numbtn'>8</button>
+        <button class = 'numbtn'>9</button>
+        <button class = 'redbtn'>x</button>
       </div>
       <div className = 'row3'>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>-</button>  
+        <button class = 'numbtn'>4</button>
+        <button class = 'numbtn'>5</button>
+        <button class = 'numbtn'>6</button>
+        <button class = 'redbtn'>-</button>  
       </div>
       <div className = 'row4'>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>+</button>
+        <button class = 'numbtn'>1</button>
+        <button class = 'numbtn'>2</button>
+        <button class = 'numbtn'>3</button>
+        <button class = 'redbtn'>+</button>
       </div>
       <div className = 'row5'>
-      <button>=</button>
-      <button>0</button>
+      <button class = 'widebtn'>0</button>
+      <button class = 'redbtn'>=</button>
       </div>
     </div>
   );
