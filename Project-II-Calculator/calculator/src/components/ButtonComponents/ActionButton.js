@@ -1,15 +1,9 @@
 import React from 'react';
 import './Button.scss';
 
-const ActionButton = () =>{
+const ActionButton = (props) =>{
     return (
-        <div className = 'operators'>
-            <div className = 'division'>÷</div>
-            <div className = 'multiplication'>x</div>
-            <div className = 'subtraction'>-</div>
-            <div className = 'addition'>+</div>
-            <div className = 'equals'>=</div>
-        </div>
+        <button className={props.className}>{props.text}</button>
     )
 };
 

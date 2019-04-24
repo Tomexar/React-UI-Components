@@ -10,30 +10,30 @@ const App = () => {
     <div>
       <CalculatorDisplay />
       <div className ="row1">
-        <button class = 'widebtn'>clear</button>
-        <button class = 'redbtn'>÷</button>
+        <ActionButton className = "widebtn" text = 'clear'/>
+        <NumberButton className = "redbtn" text = '÷' />
       </div>
       <div className ='row2'>
-        <button class = 'numbtn'>7</button>
-        <button class = 'numbtn'>8</button>
-        <button class = 'numbtn'>9</button>
-        <button class = 'redbtn'>x</button>
+        <NumberButton className = "numbtn" text = '7' />  
+        <NumberButton className = "numbtn" text = '8' />  
+        <NumberButton className = "numbtn" text = '9' />  
+        <NumberButton className = "redbtn" text = 'x' />  
       </div>
       <div className = 'row3'>
-        <button class = 'numbtn'>4</button>
-        <button class = 'numbtn'>5</button>
-        <button class = 'numbtn'>6</button>
-        <button class = 'redbtn'>-</button>  
+        <NumberButton className = "numbtn" text = '4' />  
+        <NumberButton className = "numbtn" text = '5' />  
+        <NumberButton className = "numbtn" text = '6' />  
+        <NumberButton className = "redbtn" text = '-' /> 
       </div>
       <div className = 'row4'>
-        <button class = 'numbtn'>1</button>
-        <button class = 'numbtn'>2</button>
-        <button class = 'numbtn'>3</button>
-        <button class = 'redbtn'>+</button>
-      </div>
+        <NumberButton className = "numbtn" text = '1' />  
+        <NumberButton className = "numbtn" text = '2' />  
+        <NumberButton className = "numbtn" text = '3' />  
+        <NumberButton className = "redbtn" text = '+' /> 
+      </div>  
       <div className = 'row5'>
-      <button class = 'widebtn'>0</button>
-      <button class = 'redbtn'>=</button>
+        <ActionButton className = "widebtn" text = '0'/>
+        <NumberButton className = "redbtn" text = '=' />
       </div>
     </div>
   );
